@@ -7,7 +7,7 @@ static const Block blocks[] = {
 
 	{"", "~/bin/statusbar/volume",						0,		10},
 
-	{"☀", "xbacklight | sed 's/\\..*//'",					0,		11},
+	{"☀", "light -G",					0,		11},
 	
 	{"", "~/bin/statusbar/battery",						5,		0},
 
